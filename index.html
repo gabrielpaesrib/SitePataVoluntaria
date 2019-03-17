@@ -12,7 +12,8 @@
   <!---->
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap-custom.css">
   <link rel="stylesheet" href="css/style.css">
   <!---->
 
@@ -22,13 +23,42 @@
 
 <body>   <!--INICIO DO CORPO-->
 
-  <h1>Pata Voluntária</h1> <hr>
-  <strong>TESTE</strong> <br>
-  <a href="contas.html" target="_blank">CONTAS</a>
+  <nav class="navbar navbar-light bg-light navbar-expand-md">
+  <a href="index.html" class="navbar-brand ml-5">
+    <img src="img/logo.png" alt="Pata Voluntária">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto pr-5">
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold text-dark" href="doacao.html">Doação</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold text-dark" href="contas.html">Transparência</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold text-dark" href="sobre.html">Sobre</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
 
+  <div class="introducao">
+    <div class="container">
+      <h1 class="text-white font-weight-bold text-uppercase">Pata Voluntária</h1>
+      <blockquote class="blockquote quote-externo text-white">
+        <p class="mb-0">“antes de ter amado um animal, parte da nossa alma 
+            parmanece desacordada.”</p>
+        <footer class="blockquote-footer text-white"><cite title="Source Title">Anatole France</cite></footer>
+      </blockquote>
+      <a href="contas.html" class="btn btn-outline-primary font-weight-bold">Transparência</a>
+    </div>
+  </div>
 
-
+        
 
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
