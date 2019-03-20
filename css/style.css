@@ -31,11 +31,41 @@
   margin-left: 70px;
 }
 
-.footer {
+.quebra {
   width: 100%;
   height: 190px;
   background: url("../img/footer.jpg") no-repeat center;
   background-size: cover;
   text-align: center;
   padding-top: 70px;
+}
+
+.footer ul li {
+  list-style-type: none;
+  color: black;
+}
+
+.copyright {
+  background: #000;
+  width: 100%;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px
+}
+
+.footer_redes ul li a {
+  border: 3px solid black;
+  border-radius: 6px;
+  display: block;
+  padding: 4px;
+}
+
+.footer_redes ul li a:hover {
+  border-color: #fff;
+}
+
+.copyright p {
+  font-size: 14px;
 }
